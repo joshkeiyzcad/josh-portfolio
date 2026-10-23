@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Josh Keiyz Cad's web development portfolio">
+  <title>Josh Keiyz Cad | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">JK<span>.</span></a>
+
+      <button id="menu-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div>
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Josh Keiyz <span>Cad.</span></h1>
+        <h2>Beginner Web Developer</h2>
+
+        <p class="description">
+          I'm learning to turn ideas into useful websites.
+          I enjoy building projects, exploring new technology,
+          and improving my skills one line of code at a time.
+        </p>
+
+        <div class="buttons">
+          <a class="button primary" href="#projects">
+            Explore My Projects
+          </a>
+          <a class="button secondary" href="#contact">
+            Contact Me
+          </a>
+        </div>
+
+        <p class="small-note">
+          HTML · CSS · JavaScript · Always Learning
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-top">
+          <span></span><span></span><span></span>
+          <small>about-me.js</small>
+        </div>
+        <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Josh Keiyz Cad"</span>,
+  role: <span class="green">"Web Developer"</span>,
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>
+  ],
+  mindset: <span class="green">"Keep Learning"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+
+      <div class="about-box">
+        <p>
+          My name is Josh Keiyz Cad, and I'm an aspiring web developer.
+          I'm building my knowledge of website design and programming
+          through practice and personal projects.
+        </p>
+        <p>
+          I want to create responsive, useful, and attractive websites
+          that solve real problems. Every project is an opportunity
+          to learn something new and become a better developer.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">MY TOOLKIT</p>
+      <h2>Skills I'm <span>Developing</span></h2>
+
+      <div class="skills-grid">
+        <article class="skill">
+          <div class="skill-icon html">5</div>
+          <h3>HTML</h3>
+          <p>Structuring web pages and content.</p>
+        </article>
+
+        <article class="skill">
+          <div class="skill-icon css">✳</div>
+          <h3>CSS</h3>
+          <p>Designing layouts, colors, and styles.</p>
+        </article>
+
+        <article class="skill">
+          <div class="skill-icon js">JS</div>
+          <h3>JavaScript</h3>
+          <p>Adding interaction to websites.</p>
+        </article>
+
+        <article class="skill">
+          <div class="skill-icon responsive">▣</div>
+          <h3>Responsive Design</h3>
+          <p>Making websites work on mobile and desktop.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">WHAT I'VE BUILT</p>
+      <h2>Featured <span>Project</span></h2>
+
+      <article class="project">
+        <div class="project-visual">
+          <span class="project-symbol">🧰</span>
+          <h3>Equipment Rental Marketplace</h3>
+          <p>Find equipment. Preview a booking. Get to work.</p>
+        </div>
+
+        <div class="project-details">
+          <p class="project-label">WEB DEVELOPMENT PROJECT</p>
+          <h3>Equipment Rental Marketplace</h3>
+          <p>
+            A responsive marketplace prototype for browsing
+            equipment available to rent. It features searchable
+            listings, category and price filters, favorites,
+            item details, and a booking preview.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <p class="project-status">
+            Status: Working front-end prototype
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea? <span>Let's talk.</span></h2>
+        <p>
+          I'm open to feedback, learning opportunities,
+          and interesting project ideas.
+        </p>
+
+        <!-- Replace this placeholder with your real email. -->
+        <a class="button primary"
+           href="mailto:amulijoshua650@gmail.com">
+          Email Me ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Josh Keiyz Cad</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
